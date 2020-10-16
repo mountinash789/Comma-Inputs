@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
         wrapper.value = comma_convert(item.value);
 
         item.addEventListener('change', (e) => {
-            console.log('CHANGED')
             wrapper.value = comma_convert(e.target.value);
         });
 
